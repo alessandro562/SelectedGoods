@@ -9,11 +9,16 @@ STRUCTURE
 Both HTML files are self-contained: fonts, symbol, animations and scripts are embedded.
 Upload the whole folder to any static hosting (Netlify, Vercel, GitHub Pages, cPanel...).
 
-BEFORE GOING LIVE
-  1. Form: the demo form currently only shows a confirmation message.
-     Connect it to a service (Formspree, Netlify Forms, Tally...) or to your backend.
-  2. Update email (hello@selectedgoods.com) and the Instagram / SoundCloud links in the footer.
-  3. Optional: add an EN / IT link in the navigation to switch languages.
+DEPLOY
+  GitHub Pages via .github/workflows/pages.yml (runs on every push to main).
+
+FORM
+  Submissions go through FormSubmit (formsubmit.co) to selectedgoodsmusic@gmail.com.
+  The FIRST submission triggers an activation email from FormSubmit to that inbox:
+  click the confirmation link once, then all later submissions arrive normally.
+
+TODO
+  - Add the real Instagram / SoundCloud links to the footer (removed for now, they were placeholders).
 
 FONTS
   Albert Sans + JetBrains Mono (Google Fonts, SIL Open Font License, free for commercial use).
