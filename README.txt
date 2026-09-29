@@ -10,7 +10,7 @@ Both HTML files are self-contained: fonts, symbol, animations and scripts are em
 Upload the whole folder to any static hosting (Netlify, Vercel, GitHub Pages, cPanel...).
 
 DEPLOY
-  GitHub Pages via .github/workflows/pages.yml (runs on every push to main).
+  GitHub Pages, "Deploy from a branch": main, / (root). Files live at the repo root.
 
 FORM
   Submissions go through FormSubmit (formsubmit.co) to selectedgoodsmusic@gmail.com.
