@@ -1,8 +1,10 @@
 SELECTED GOODS — Website package
 
 STRUCTURE
-  index.html          English version (site root)
-  it/index.html       Italian version
+  index.html          The site, English + Italian on the same page (EN / IT switch in the nav).
+                      Language is remembered per visitor; first visit follows the browser language.
+                      ?lang=it or ?lang=en in the URL forces a language.
+  it/index.html       Redirect to /?lang=it (keeps old links working)
   assets/favicon.svg  Favicon (already embedded in the pages)
   assets/symbol-ink.svg / symbol-paper.svg  Symbol, dark and light
 
